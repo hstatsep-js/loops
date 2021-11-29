@@ -23,6 +23,26 @@
         <script>
             // JS
             
+            function guessColor(compColor){
+                var userColor = prompt("What color am I thinking of?");
+                while(userColor != compColor){
+                    userColor = prompt("Try again! It starts with the letter " + compColor.substring(0,1));
+                }
+                alert("Great job!");
+            }
+            // guessColor();
+
+            function evensThroughTwenty(){
+                // loop counts by 2
+                var num = 0;
+            }
+            // eventsThroughTwenty();
+
+            function evensThroughTwentyRefactored(){
+                // loop counts by 1, but still only prints even numbers
+                var num = 0;
+            }
+            // evensThroughTwentyRefactored();
             
         </script>
     </body>
