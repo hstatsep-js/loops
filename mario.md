@@ -4,10 +4,10 @@ Toward the beginning of World 1-1 in Nintendo’s Super Mario Brothers, Mario mu
 
 ![mario](http://www.infendo.com/wp-content/uploads/2008/06/mario.png)
 
-Your mission is to recreate these blocks using code. 
+Your mission is to recreate these blocks using code. When you finish a part, feel free to comment certain parts out and move on to the next part.
 
 ### Part I: The Boring Pyramid
-Create a program that will print the following pyramid:
+We want to write a function that will print the following pyramid:
 
 ```
    #  #
@@ -18,12 +18,16 @@ Create a program that will print the following pyramid:
 
 (The height and the width of the half-pyramids pictured above are 4 with a gap of size 2 separating them.) 
 
-Hint: use `.repeat()`
+The function `boringPyramid()` is already written; feel free to uncomment it to see it in action.
+
+But there's a cool trick in Javascript that might allow us to do this more efficiently. It's called `.repeat()`
 
 ```js
 console.log("You are " + "so ".repeat(5) + "awesome!");
 // You are so so so so so awesome!
 ```
+
+Now write refactored code in `boringPyramidRefactored()` using `.repeat()`. The result should be EXACTLY the same, but you should be using `.repeat()` for spaces and pound symbols.
 
 ### Part II: User Specified Height
 
@@ -46,8 +50,9 @@ Modify your code to prompt the user for the number of pyramids they want. Using 
  ###  ###
 ####  ####
 ```
+
 ### Part IV: Every-Other-Upside-Down Pyramid
-Duplicate your Part III code, but make every other pyramid inverted. Example:
+Similar to Part III, but make every other pyramid inverted. Example:
 ```
    #  #
   ##  ##
@@ -62,3 +67,5 @@ Duplicate your Part III code, but make every other pyramid inverted. Example:
  ###  ###
 ####  ####
 ```
+
+HINT: you can write another helper function if you need to!
