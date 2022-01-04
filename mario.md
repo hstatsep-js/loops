@@ -27,7 +27,7 @@ console.log("You are " + "so ".repeat(5) + "awesome!");
 // You are so so so so so awesome!
 ```
 
-Now write refactored code in `boringPyramidRefactored()` using `.repeat()`. The result should be EXACTLY the same, but you should be using `.repeat()` for spaces and pound symbols.
+Now write refactored code in `boringPyramidRefactored()` using `.repeat()`. Do NOT write a `for` loop. The result should be EXACTLY the same, but you should be using `.repeat()` for spaces and pound symbols.
 
 ### Part II: User Specified Height
 
